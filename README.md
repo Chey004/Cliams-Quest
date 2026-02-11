@@ -27,6 +27,25 @@ npm run dev
 ```
 Open your browser to the local URL provided (usually `http://localhost:5173`).
 
+### 📦 Running from Git on Another System
+
+If you want to run this project on a different machine:
+
+1.  **Clone the Repository**:
+    ```bash
+    git clone <your-repo-url>
+    cd Claims
+    ```
+2.  **Install Dependencies**:
+    ```bash
+    npm install
+    # This installs React, Vite, Tailwind, DnD-Kit, etc. from package.json
+    ```
+3.  **Run the Game**:
+    ```bash
+    npm run dev
+    ```
+
 ## 🕹️ Game Levels
 
 ### Unit 1: The Intake Gate (Form Finder)
